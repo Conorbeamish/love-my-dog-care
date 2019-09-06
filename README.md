@@ -1,5 +1,5 @@
-#Love My Dog Care
+**Love My Dog Care**
 
-##Authors
+*Authors*
 Conor Beamish
 Bill Davie
