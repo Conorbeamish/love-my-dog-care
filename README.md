@@ -1,1 +1,5 @@
-# love-my-dog-care
+#Love My Dog Care
+
+##Authors
+Conor Beamish
+Bill Davie
