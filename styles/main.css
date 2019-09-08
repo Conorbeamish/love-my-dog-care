@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    font-family: 'Livvic', sans-serif;
+}
+
+body {
+    background: 
+    #fff8f0
+    /* #e0bad7
+    #61d095
+    #48bf84
+    #439775
+    #2a4747 */
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(224, 186, 215, 0.9);
+    color: #2a4747;
+}
+
+.nav-brand{
+    padding: 1rem;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    padding-right: 1rem;
+    color: #2a4747;
+}
+
+.brand-title{
+    margin: 0;
+    display: inline;
+    font-size: 1.25rem;
+}
+
+.brand-logo{
+    display: inline;
+    padding-right: 1rem;
+}
+
+.brand-logo:hover {
+    cursor: pointer;
+}
