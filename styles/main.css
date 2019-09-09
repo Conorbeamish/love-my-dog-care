@@ -13,6 +13,11 @@ body {
     #2a4747 */
 }
 
+a {
+    text-decoration: none;
+    color:#2a4747;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -29,17 +34,21 @@ body {
 }
 
 .nav-menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     font-weight: bold;
-    
 }
 
 .nav-link{
-    text-decoration: none;
     padding-right: 1rem;
     color: #2a4747;
+    margin: 1rem;
+}
+
+.nav-link:hover{
+    color: #fff8f0;
+}
+
+.active{
+    color: #fff8f0;
 }
 
 .brand-title{
@@ -55,4 +64,41 @@ body {
 
 .brand-logo:hover {
     cursor: pointer;
+    color: #fff8f0;
+}
+
+.dropdown {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1rem;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    color: #fff8f0;
+}
+
+.dropdown-hide{
+    display: none;
+}
+
+.dropdown-show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 3.5rem;
+    background: rgba(224, 186, 215, 0.9);
+}
+
+@media only screen and (min-width: 600px){
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .dropdown {
+        display: none !important; 
+    }
 }
