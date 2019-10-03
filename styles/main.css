@@ -1,16 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Livvic', sans-serif;
-}
-
-body {
-    background: 
-    #fff8f0
-    /* #e0bad7
-    #61d095
-    #48bf84
-    #439775
-    #2a4747 */
+    color: #2a4747;
 }
 
 a {
@@ -18,87 +9,6 @@ a {
     color:#2a4747;
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgba(224, 186, 215, 0.9);
-    color: #2a4747;
-}
-
-.nav-brand{
-    padding: 1rem;
-}
-
-.nav-menu{
-    font-weight: bold;
-}
-
-.nav-link{
-    padding-right: 1rem;
-    color: #2a4747;
-    margin: 1rem;
-}
-
-.nav-link:hover{
-    color: #fff8f0;
-}
-
-.active{
-    color: #fff8f0;
-}
-
-.brand-title{
-    margin: 0;
-    display: inline;
-    font-size: 1.25rem;
-}
-
-.brand-logo{
-    display: inline;
-    padding-right: 1rem;
-}
-
-.brand-logo:hover {
-    cursor: pointer;
-    color: #fff8f0;
-}
-
-.dropdown {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 1rem;
-}
-
-.dropdown:hover {
-    cursor: pointer;
-    color: #fff8f0;
-}
-
-.dropdown-hide{
-    display: none;
-}
-
-.dropdown-show{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 3.5rem;
-    background: rgba(224, 186, 215, 0.9);
-}
-
-@media only screen and (min-width: 600px){
-    .nav-menu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        
-    }
-    .dropdown {
-        display: none !important; 
-    }
+a:hover {
+    color: 	#f9f9f9;
 }
